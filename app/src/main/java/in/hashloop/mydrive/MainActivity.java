@@ -16,11 +16,13 @@ Button  createbutn;
         setContentView(R.layout.activity_main);
 
 
-        Button createbutn = findViewById(R.id.createbutn);
-        createbutn.setOnClickListener(v -> {
+        Button createbutn = (Button) findViewById(R.id.createbutn);
+        createbutn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
 
-            Intent i = new Intent(MainActivity.this, CreateFolderActivity.class);
-            startActivity(i);
+                Intent i = new Intent(MainActivity.this, CreateFolderActivity.class);
+                startActivity(i);
+            }
         });
 
 
