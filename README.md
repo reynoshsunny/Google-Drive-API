@@ -1,5 +1,5 @@
 <h1><a id="GoogleDriveAPI_0"></a>Google-Drive-API</h1>
-<p>Android app for create folder in Google Drive</p>
+<p>Android app for creating folder in Google Drive</p>
 <h1><a id="Setting_up_a_development_environment_6"></a>Setting up a development environment</h1>
 <ul>
 <li>Clone the repo</li>
